@@ -12,7 +12,7 @@ S. Y. B. B. A. (C. A.) Semester-IV (CBCS 2019 Pattern) Object Oriented Concepts 
     <td>C++</td><td>53</td><td>7</td><td>60</td>
   </tr>
   <tr align=center>
-    <td>Total</td><td>107</td><td>13</td><td>120</td>
+    <th>Total</th><td>107</td><td>13</td><td>120</td>
   </tr>
 </table>
 <b>Remaining Questions:</b><br>
