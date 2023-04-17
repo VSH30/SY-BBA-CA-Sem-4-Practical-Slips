@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function add(){
+                a = f.num1.value;
+                b = f.num2.value;
+                var x = new XMLHttpRequest();
+                x.onreadystatechange = function(){
+                    document.getElementById("results").innerHTML = x.responseText;
+                };
+                x.open("GET","slip26a.php?a="+a+"&b="+b,true);
+                x.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f">
+            Enter num1 : <input type="number" name="num1">
+            Enter num2 : <input type="number" name="num2">
+            <input type="button" onclick="add()" value="Add">
+            <div id="results"></div>
+        </form>
+    </body>
+</html>

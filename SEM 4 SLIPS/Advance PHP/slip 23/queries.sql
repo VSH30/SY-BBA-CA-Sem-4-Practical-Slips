@@ -1,0 +1,10 @@
+CREATE DATABASE slip23;
+USE slip23;
+CREATE TABLE Movie(movie_no INT(2) PRIMARY KEY, movie_name VARCHAR(30), release_year INT(4));
+CREATE TABLE Actor(actor_no INT(2) PRIMARY KEY, name VARCHAR(30));
+CREATE TABLE m_a(movie_no INT(2) REFERENCES Movie, actor_no INT(2) REFERENCES Actor, PRIMARY KEY (movie_no,actor_no));
+INSERT INTO Movie VALUES(11,"Ek tha Tiger",2012),(22,"Tiger Zinda Hai",2017),(33,"WAR",2019),(44,"Pathaan",2023);
+INSERT INTO Actor VALUES(1,"Salman Khan"),(2,"Shah Rukh Khan"),(3,"Hritik Roshan"),(4,"Tiger Shroff"),(5,"Katrina Kaif"),(6,"Anupriya Goenka"),(7,"Vaani Kapoor"),(8,"Deepika Padukone");
+INSERT INTO m_a VALUES(11,1),(11,5),(22,1),(22,5),(22,6),(33,3),(33,4),(33,6),(33,7),(44,2),(44,1),(44,8);
+DROP TABLE m_a;
+DROP TABLE Actor;

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function fact(n){
+                var x = new XMLHttpRequest();
+
+                x.onreadystatechange = function(){
+                    document.getElementById("results").innerHTML = x.responseText;
+                };
+
+                x.open("GET","slip27a.php?num="+n,false);
+                x.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            Enter number : 
+            <input type="number" onkeyup="fact(this.value)">
+            <div id="results"></div>
+        </form>
+    </body>
+</html>

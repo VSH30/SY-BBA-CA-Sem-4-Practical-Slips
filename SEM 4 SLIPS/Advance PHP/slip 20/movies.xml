@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Movies>
+    <Classical>
+        <MovieName> Sholay </MovieName>
+        <ReleaseYear> 1975 </ReleaseYear>
+        <ActorName> Amitabh Bachchan </ActorName>
+    </Classical>
+    <Action>
+        <MovieName> Pathaan </MovieName>
+        <ReleaseYear> 2023 </ReleaseYear>
+        <ActorName> Shah Rukh Khan </ActorName>
+    </Action>
+    <Horror>
+        <MovieName> Bhool Bhulaiyaa </MovieName>
+        <ReleaseYear> 2007 </ReleaseYear>
+        <ActorName> Akshay Kumar </ActorName>
+    </Horror>
+</Movies>

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function suggest(str){
+                var v;
+                v = new XMLHttpRequest();
+                v.onreadystatechange = function(){
+                    document.getElementById("result").innerHTML = v.responseText;
+                };
+                v.open("GET","slip15b.php?city="+str,false);
+                v.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f1">
+            Enter City : 
+            <input type="text" onkeyup="suggest(this.value)">
+            <div id="result"></div>
+        </form>
+    </body>
+</html>

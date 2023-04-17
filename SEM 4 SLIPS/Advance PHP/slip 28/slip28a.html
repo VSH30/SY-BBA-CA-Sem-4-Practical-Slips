@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function suggest(str){
+                var x = new XMLHttpRequest();
+
+                x.onreadystatechange = function(){
+                    document.getElementById("results").innerHTML = x.responseText;
+                };
+
+                x.open("GET","slip28a.php?game="+str,true);
+                x.send();
+            }
+        </script>  
+    </head>
+    <body>
+        <form>
+            Enter Game : 
+            <input type="text" onkeyup="suggest(this.value)"><br>
+            <div id="results"></div>
+        </form>
+    </body>
+</html>

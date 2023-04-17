@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Books>
+    <Book category="Yoga">
+        <Book_Title>YogaKaro</Book_Title>
+        <Book_Author>Yogaauth</Book_Author>
+       <Book_Price>999</Book_Price>
+    </Book>
+    <Book category="Story">
+       <Book_Title>StoryPadho</Book_Title>
+       <Book_Author>SotryAuth</Book_Author>
+       <Book_Price>777</Book_Price>
+    </Book>
+    <Book category="Technical">
+      <Book_Title>Techbook</Book_Title>
+      <Book_Author>TechAuth</Book_Author>
+     <Book_Price>555</Book_Price>
+    </Book>
+</Books>

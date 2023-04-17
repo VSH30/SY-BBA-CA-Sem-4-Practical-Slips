@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function validate(){
+                var xmlhttp;
+                xmlhttp = new XMLHttpRequest();
+                userid = form.userid.value;
+                password = form.password.value;
+
+                xmlhttp.onreadystatechange = function(){
+                    document.getElementById("result").innerHTML = xmlhttp.responseText;
+                }
+                xmlhttp.open("POST","slip14b.php",false);
+                xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+                xmlhttp.send("userid="+userid+"&pass="+password);
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form">
+            Enter user id : 
+            <input type="text" name="userid"><br>
+            Enter password : 
+            <input type="password" name="password"><br>
+            <input type="button" value="Validate" onclick="validate()">
+        </form>
+        <div id="result"></div>
+    </body>
+</html>

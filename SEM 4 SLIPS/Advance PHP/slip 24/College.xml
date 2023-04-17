@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ListCollege>
+    <College>
+        <Cname>College1</Cname>
+        <City>City1</City>
+        <Rank>Rank1</Rank>
+    </College>
+    <College>
+        <Cname>College2</Cname>
+        <City>City2</City>
+        <Rank>Rank2</Rank>
+    </College>
+    <College>
+        <Cname>College3</Cname>
+        <City>City3</City>
+        <Rank>Rank3</Rank>
+    </College>
+    <College>
+        <Cname>College4</Cname>
+        <City>City4</City>
+        <Rank>Rank4</Rank>
+    </College>
+    <College>
+        <Cname>College5</Cname>
+        <City>City5</City>
+        <Rank>Rank5</Rank>
+    </College>
+    <College>
+        <Cname>College6</Cname>
+        <City>City6</City>
+        <Rank>Rank6</Rank>
+    </College>
+</ListCollege>

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function display(){
+                rno = form.rno.value;
+                name = form.name.value;
+                prn = form.prn.value;
+                php = form.php.value;
+                os = form.os.value;
+                cpp = form.cpp.value;
+                net = form.net.value;
+
+                var x = new XMLHttpRequest();
+                x.onreadystatechange = function(){
+                    document.getElementById("results").innerHTML = x.responseText;
+                };
+
+                x.open("GET","slip21b.php?rno="+rno+"&name="+name+"&prn="+prn+"&php="+php+"&os="+os+"&cpp="+cpp+"&net="+net,false);
+                x.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form">
+            Enter Roll_No : <input type="number" name="rno"><br>
+            Enter Name : <input type="text" name="name"><br>
+            Enter PRN No : <input type="number" name="prn"><br>
+            <h3>Marks:</h3>
+            PHP : <input type="number" name="php"><br>
+            OS : <input type="number" name="os"><br>
+            CPP : <input type="number" name="cpp"><br>
+            Networking : <input type="number" name="net"><br><br>
+            <input type="button" onclick="display()" value="Show Result">
+        </form>
+        <div id="results"></div>
+    </body>
+</html>

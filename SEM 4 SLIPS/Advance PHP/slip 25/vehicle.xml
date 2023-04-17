@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<vehicle>
+    <veh Type="two wheeler">
+        <vehiclename>CBR</vehiclename>
+        <company>Honda</company>
+        <color>Red</color>
+        <average>15</average>
+    </veh>
+    <veh Type="four wheeler">
+        <vehiclename>Maruti</vehiclename>
+        <company>Suzuki</company>
+        <color>Black</color>
+        <average>30</average>
+    </veh>
+
+</vehicle>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sports>
+    <game>
+        <name>Football</name>
+        <team>Real Madrid</team>
+        <captain>Benzema</captain>
+    </game>
+    <game>
+        <name>Cricet</name>
+        <team>India</team>
+        <captain>XYZ</captain>
+    </game>
+    <game>
+        <name>Baseball</name>
+        <team>BBteam</team>
+        <captain>ABC</captain>
+    </game>
+</sports>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function display(){
+                var x = new XMLHttpRequest();
+                x.onreadystatechange = function(){
+                    document.getElementById("results").innerHTML = x.responseText;
+                };
+                x.open("GET","slip11b.php",false);
+                x.send();
+            }
+        </script>
+        <style>
+            #results{
+                color: Red;
+                font-weight:bolder;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="button" onclick="display()" value="FETCH">
+        <div id="results"></div>
+    </body>
+</html>

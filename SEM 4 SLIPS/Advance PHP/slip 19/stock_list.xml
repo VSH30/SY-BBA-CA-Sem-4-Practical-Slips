@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<stock>
+    <item>
+        <category>Fruit</category>
+        <name>Mango</name>
+        <quantity>300</quantity>
+    </item>
+    <item>
+        <category>Vegetable</category>
+        <name>Potato</name>
+        <quantity>250</quantity>
+    </item>
+    <item>
+        <category>Fruit</category>
+        <name>Pineapple</name>
+        <quantity>92</quantity>
+    </item>
+</stock>

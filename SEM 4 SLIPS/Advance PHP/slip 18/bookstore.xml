@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<BookStore>
+    <Books>
+        <PHP>
+            <title>Programming PHP</title>
+            <publication>O'RELLY</publication>
+            <price>800</price>
+        </PHP>
+        <PHP>
+            <title>Beginners PHP</title>
+            <publication>WROX</publication>
+            <price>900</price>
+        </PHP>
+        <PHP>
+            <title>CCCCCCCCC</title>
+            <publication>pcpcpcpc</publication>
+            <price>100</price>
+        </PHP>
+        <PHP>
+            <title>DDDDDD</title>
+            <publication>pdpdpd</publication>
+            <price>200</price>
+        </PHP>
+        <PHP>
+            <title>EEEEEEE</title>
+            <publication>pepepe</publication>
+            <price>232</price>
+        </PHP>
+        <PHP>
+            <title>FFFFFFF</title>
+            <publication>pfpfpf</publication>
+            <price>12312</price>
+        </PHP>
+    </Books>
+</BookStore>

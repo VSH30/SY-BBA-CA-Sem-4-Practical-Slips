@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Course>
+    <ComputerScience>
+        <StudentName>Vishal Hanchnoli</StudentName>
+        <ClassName>SYBBA(CA)</ClassName>
+        <Percentage>60%</Percentage>
+    </ComputerScience>
+    <ComputerScience>
+        <StudentName>Rohit Prajapati</StudentName>
+        <ClassName>SYBBA(CA)</ClassName>
+        <Percentage>95%</Percentage>
+    </ComputerScience>
+    <ComputerScience>
+        <StudentName>Adnan Ali</StudentName>
+        <ClassName>SYBBA(CA)</ClassName>
+        <Percentage>70%</Percentage>
+    </ComputerScience>
+    <ComputerScience>
+        <StudentName>Abhishek Kumar</StudentName>
+        <ClassName>SYBBA(CA)</ClassName>
+        <Percentage>85%</Percentage>
+    </ComputerScience>
+    <ComputerScience>
+        <StudentName>Pranav Joshi</StudentName>
+        <ClassName>SYBBA(CA)</ClassName>
+        <Percentage>77%</Percentage>
+    </ComputerScience>
+</Course>

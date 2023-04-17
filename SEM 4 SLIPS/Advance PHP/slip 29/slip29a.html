@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function suggest(str){
+                var v = new XMLHttpRequest();
+
+                v.onreadystatechange = function(){
+                    document.getElementById("results").innerHTML = v.responseText;
+                };
+                
+                v.open("GET","slip29a.php?str="+str,true);
+                v.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            Search : 
+            <input type="text" name="search" onkeyup="suggest(this.value)">
+            <div id="results"></div>
+        </form>
+    </body>
+</html>

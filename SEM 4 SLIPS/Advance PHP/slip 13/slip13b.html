@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function validate(){
+                var xmlhttp;
+                xmlhttp = new XMLHttpRequest();
+
+                name=f1.name.value;
+                age=f1.age.value;
+                c=f1.c.value;
+                
+                xmlhttp.onreadystatechange = function(){
+                    if(xmlhttp.readyState==4 && xmlhttp.status==200)
+                        document.getElementById("result").innerHTML = xmlhttp.responseText;
+                };
+                xmlhttp.open("GET","slip13b.php?name="+name+"&age="+age+"&c="+c,false);
+                xmlhttp.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f1">
+            Enter Name: 
+            <input type="text" name="name"><br>
+            Enter Age: 
+            <input type="number" name="age"><br>
+            Enter Nationality: 
+            <input type="text" name="c"><br>
+            <input type="button" value=submit onclick="validate()"/>
+        </form>
+        <div id="result"></div>
+    </body>
+</html>

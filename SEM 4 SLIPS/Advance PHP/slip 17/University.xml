@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<Universitylist>
+    <Univ>
+        <Uname>AAA</Uname>
+        <City>BBB</City>
+        <Rank>2</Rank>
+    </Univ>
+    <Univ>
+        <Uname>DDD</Uname>
+        <City>EEE</City>
+        <Rank>1</Rank>
+    </Univ>
+    <Univ>
+        <Uname>GGG</Uname>
+        <City>HHH</City>
+        <Rank>3</Rank>
+    </Univ>
+</Universitylist>

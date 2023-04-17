@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function validate(str){
+                var v;
+                v = new XMLHttpRequest();
+                v.onreadystatechange = function(){
+                    document.getElementById("result").innerHTML = v.responseText;
+                };
+                v.open("GET","slip16b.php?user="+str,false);
+                v.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f1">
+            Enter username : 
+            <input type="text" name="user" onkeyup="validate(this.value)">
+            <div id="result"></div>
+        </form>
+    </body>
+</html>
