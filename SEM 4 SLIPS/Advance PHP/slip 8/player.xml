@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<playerinfo>
+    <player>
+        <Country>India</Country>
+        <Player_name>Sachin</Player_name>
+        <Wickets>9</Wickets>
+        <Runs>450</Runs>
+    </player>
+    <player>
+        <Country>India</Country>
+        <Player_name>Dhoni</Player_name>
+        <Wickets>19</Wickets>
+        <Runs>200</Runs>
+    </player>
+    <player>
+        <Country>India</Country>
+        <Player_name>Virat</Player_name>
+        <Wickets>6</Wickets>
+        <Runs>321</Runs>
+    </player>
+    <player>
+        <Country>India</Country>
+        <Player_name>Virat</Player_name>
+        <Wickets>6</Wickets>
+        <Runs>321</Runs>
+    </player>
+</playerinfo>

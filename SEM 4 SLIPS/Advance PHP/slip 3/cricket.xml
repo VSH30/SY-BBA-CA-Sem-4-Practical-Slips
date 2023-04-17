@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<CricketTeam>
+    <Team country="Australia">
+        <player>Messi</player>
+        <runs>92</runs>
+        <wicket>8</wicket>
+    </Team>
+</CricketTeam>

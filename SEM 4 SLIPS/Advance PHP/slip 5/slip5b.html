@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function getstud(){
+                n=f1.txt.value;
+                var xmlhttp;
+                xmlhttp=new XMLHttpRequest();
+
+                xmlhttp.onreadystatechange = function(){
+                    if(xmlhttp.readyState==4 && xmlhttp.status==200){
+                        document.getElementById("result").innerHTML=xmlhttp.responseText;
+                    }
+                };
+                xmlhttp.open("GET","slip5b.php?name="+n,true);
+                xmlhttp.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f1">
+            Enter Name : 
+            <input type="text" name="txt" onkeyup="getstud()"/><br><br>
+            <div id="result"></div>
+        </form>
+    </body>
+</html>

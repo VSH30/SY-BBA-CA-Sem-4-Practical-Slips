@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            function show(str){
+                ob = new XMLHttpRequest();
+                ob.onreadystatechange = function(){
+                    if(ob.readyState==4 && ob.status==200)
+                        document.getElementById("a").innerHTML=ob.responseText;
+                };
+                ob.open("GET","slip8b.php?q="+str,true);
+                ob.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <b>PLAYER NAME: </b>
+            <select name="player_name" onchange="show(this.value)">
+                <option value="">SELECT PLAYER</option>
+                <option value="Sachin">Sachin</option>
+                <option value="Virat">Virat</option>
+                <option value="Dhoni">Mahendra</option>
+            </select>
+        </form>
+        <b>PLAYER DETAILS : </b>
+        <div id="a"></div>
+    </body>
+</html>

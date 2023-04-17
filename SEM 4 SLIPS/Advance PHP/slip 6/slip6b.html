@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function display(){
+                n=f1.txt.value;
+                var xmlhttp;
+
+                xmlhttp=new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function(){
+                    if(xmlhttp.readyState==4 && xmlhttp.status==200){
+                        document.getElementById("result").innerHTML=xmlhttp.responseText;
+                    }
+                };
+                xmlhttp.open("GET","slip6b.php?txt="+n,true);
+                xmlhttp.send();
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f1">
+            Enter Employee Name:
+            <input type="text" name="txt" onkeyup="display()"/><br>
+            </form>
+            <div id="result"></div>
+        </form>
+    </body>
+</html>

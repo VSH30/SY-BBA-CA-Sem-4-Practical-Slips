@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Students>
+    <Stud>
+        <rno>1</rno>
+        <name>Vishal Hanchnoli</name>
+        <addr>EmpireSqure</addr>
+        <coll>ATSS</coll>
+        <course>SYBCA</course>
+    </Stud>
+    <Stud>
+        <rno>54</rno>
+        <name>Adnan Quazi</name>
+        <addr>Vallabhnagar</addr>
+        <coll>ASM</coll>
+        <course>FYBCA</course>
+    </Stud>
+    <Stud>
+        <rno>56</rno>
+        <name>Saniya Sayyed</name>
+        <addr>Vimannagar</addr>
+        <coll>Indira</coll>
+        <course>TYBCA</course>
+    </Stud>
+    <Stud>
+        <rno>10</rno>
+        <name>Shabaz Danawad</name>
+        <addr>CHINCHWAD</addr>
+        <coll>DY Patil</coll>
+        <course>SYBCA</course>
+    </Stud>
+</Students>

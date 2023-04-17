@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<cricket>
+    <player>
+        <name>Adnan Quazi</name>
+        <runs>9999</runs>
+        <wickets>200</wickets>
+        <noofnotout>200</noofnotout>
+    </player>
+    <player>
+        <name>VSH</name>
+        <runs>7890</runs>
+        <wickets>341</wickets>
+        <noofnotout>234</noofnotout>
+    </player>
+    <player>
+        <name>XYZ</name>
+        <runs>213</runs>
+        <wickets>60</wickets>
+        <noofnotout>12</noofnotout>
+    </player>
+</cricket>

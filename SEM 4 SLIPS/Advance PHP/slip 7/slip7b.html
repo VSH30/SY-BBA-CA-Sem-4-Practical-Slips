@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function display(pname){
+                var xmlhttp;
+                xmlhttp = new XMLHttpRequest();
+
+                xmlhttp.onreadystatechange = function(){
+                    if(xmlhttp.readyState==4 && xmlhttp.status==200)
+                        document.getElementById("result").innerHTML=xmlhttp.responseText;
+                };
+                xmlhttp.open("GET","slip7b.php?pname="+pname,true);
+                xmlhttp.send();
+            }
+        </script>
+    </head>
+    <body>
+        Select Project: 
+        <select name="pname" onchange="display(this.value)">
+            <option value=""></option>
+            <option value="Exam Portal">Exam Portal</option>
+            <option value="Vishakha Furnitures Site">Vishakha Furnitures Site</option>
+            <option value="College Hunt">College Hunt</option>
+            <option value="Nursery Management System">Nursery Management System</option>
+        </select>
+        <br>
+        <div id="result"></div>
+    </body>
+</html>
