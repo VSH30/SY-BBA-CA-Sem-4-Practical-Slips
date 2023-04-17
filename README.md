@@ -25,7 +25,7 @@ S. Y. B. B. A. (C. A.) Semester-IV (CBCS 2019 Pattern) Object Oriented Concepts 
 <li>C++:
 <ul>
 <li>Class & Object - 7B, 24B</li>
-<li>File Hadling - 1B, 2B, 3B, 25B</li>
+<li>File Handling - 1B, 2B, 3B, 25B</li>
 <li>Function Templates - 22A</li>
 </ul>
 </li>
