@@ -8,10 +8,10 @@ S. Y. B. B. A. (C. A.) Semester-IV (CBCS 2019 Pattern) Object Oriented Concepts 
     <td>Advance PHP</td><td>54</td><td>6</td><td>60</td>
   </tr>
   <tr align=center>
-    <td>C++</td><td>53</td><td>7</td><td>60</td>
+    <td>C++</td><td>55</td><td>5</td><td>60</td>
   </tr>
   <tr align=center>
-    <th>Total</th><td>107</td><td>13</td><td>120</td>
+    <th>Total</th><td>109</td><td>11</td><td>120</td>
   </tr>
 </table>
 <b>Remaining Questions:</b><br>
@@ -25,7 +25,7 @@ S. Y. B. B. A. (C. A.) Semester-IV (CBCS 2019 Pattern) Object Oriented Concepts 
 <li>C++:
 <ul>
 <li>Class & Object - 7B, 24B</li>
-<li>File Handling - 1B, 2B, 3B, 25B</li>
+<li>File Handling - 1B, 3B</li>
 <li>Function Templates - 22A</li>
 </ul>
 </li>
