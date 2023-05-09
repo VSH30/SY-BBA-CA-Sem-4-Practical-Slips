@@ -1,0 +1,65 @@
+#include<iostream>
+#include<fstream>
+#include<string.h>
+#include<ctype.h>
+
+using namespace std;
+
+int main(){
+    ifstream sample("SampleData.txt");
+
+    char word[50];
+
+    fstream arr[4];
+    arr[0].open("Upper.txt",ios::in | ios::out);
+    arr[1].open("Lower.txt",ios::in | ios::out);
+    arr[2].open("Digit.txt",ios::in | ios::out);
+    arr[3].open("Other.txt",ios::in | ios::out);
+
+    while(!sample.eof()){
+        sample>>word;
+        for(int i=0;i<strlen(word);i++){
+            if(isalpha(word[i])){
+                if(isupper(word[i]))
+                    arr[0]<<word[i]<<" ";
+                else if(islower(word[i]))
+                    arr[1]<<word[i]<<" ";
+            }else{
+                if(isdigit(word[i]))
+                    arr[2]<<word[i]<<" ";
+                else
+                    arr[3]<<word[i]<<" ";
+            }
+        }
+        //cout<<"--------------"<<endl;
+    }
+
+    //Dislay SampleData.txt
+    cout<<"----------MAIN-------------"<<endl;
+    sample.seekg(0,ios::beg);
+    string s;
+    while(!sample.eof()){
+        getline(sample,s);
+        cout<<s<<endl;
+    }
+
+    sample.close();
+
+    for(int i=0;i<4;i++){
+        cout<<"----------";
+        if(i==0) cout<<"UPPER";
+        else if(i==1) cout<<"LOWER";
+        else if(i==2) cout<<"DIGIT";
+        else cout<<"OTHER";
+        cout<<"----------"<<endl;
+
+        arr[i].seekg(0,ios::beg);
+
+        while(!arr[i].eof()){
+            getline(arr[i],s);
+            cout<<s<<endl;
+        }
+    }
+    cout<<"----------------------------"<<endl; 
+    return 0;
+}
